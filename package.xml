@@ -1,0 +1,16 @@
+<package>
+  <name>ukf_catkin</name>
+  <version>1.0.0</version>
+  <description>a unscented kalman filter implementation </description>
+  <maintainer email="ttk448@gmail.com">Tino Kluge</maintainer>
+
+  <license>TODO</license>
+
+  <url type="website">https://github.com/sfwa/ukf</url>
+
+  <author>sfwa</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  <buildtool_depend>eigen</buildtool_depend>
+</package>
