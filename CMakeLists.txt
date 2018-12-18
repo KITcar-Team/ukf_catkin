@@ -11,7 +11,7 @@ include(ExternalProject)
 
 ExternalProject_Add(ukf_src
   GIT_REPOSITORY https://github.com/KITcar-Team/ukf.git
-  GIT_TAG a038f4d0abf4b23181beb8805bdeab62caace6e6
+  GIT_TAG d2c0208057982d4ceb925f0bff3ef0a972eb35cf
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND pwd && cp -r ../ukf_src/include/UKF ${CATKIN_DEVEL_PREFIX}/include/UKF/
